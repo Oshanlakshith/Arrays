@@ -1,14 +1,4 @@
-// Java Program to Sort Array of Integers
-// by Default Sorts in an Ascending Order
-// using Arrays.sort() Method
-
-// Importing Arrays class from the utility class
-import java.util.Arrays;
-
-import static java.util.Arrays.sort;
-
-// Main class
- class compare {
+class compare {
      public static boolean compare(int[]a, int[]b){
          if(a.length == b.length){
             return true;
@@ -28,7 +18,5 @@ import static java.util.Arrays.sort;
         System.out.println("one, three : "+compare(one,three)); //false
         System.out.println("one, four : "+compare(one,four)); //false
         System.out.println("one, five : "+compare(one,fivw)); //true
-
-
     }
 }

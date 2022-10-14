@@ -24,6 +24,5 @@ public class Array_Searching {
         index=search(xr,99);
         System.out.println("Index of 99 : "+index); //-1
     }
-
 }
 

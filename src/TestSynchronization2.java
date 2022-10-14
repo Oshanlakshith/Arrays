@@ -2,9 +2,9 @@ class Table {
     synchronized void printTable() {//synchronized method
         String name = Thread.currentThread().getName();
        // =========Ok=============
-        //synchronized (this) {
+//        synchronized (this) {
             for (int i = 1; i <= 5; i++) {
-                System.out.println(name);
+               System.out.println(name);
                 try {
                     Thread.sleep(400);
                 } catch (Exception e) {
@@ -13,7 +13,7 @@ class Table {
             }
         }
     }
-  // }
+    // }
 
     class MyThread1 extends Thread {
         Table t;
